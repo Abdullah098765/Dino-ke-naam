@@ -11,8 +11,11 @@
 
        var ma = (Math.round(randomNumber * 6));
 
+      var mb =  (Math.round(randomNumber * 255));
+      var mc =  (Math.round(randomNumber * 255 + mb));
+      var md =  (Math.round((randomNumber * 255) + mc));
 
-       document.write(`<h1>${dkn[ma]}</h1>`);
+       document.write(`<h1 style="text-align: center; background: black;  color:rgb(${mb}, ${mc}, ${md})"> ${dkn[ma]}</h1>`);
 
 
 
