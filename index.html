@@ -6,12 +6,12 @@
 
     <script>
         var dkn = ["Thursday", "Friday" , "Saturday" , "Sunday" , "Monday" , "Tuesday" , "Wednesday"];
-        var rkn = ["blue", "green" , "yellow" , "red" , "gray" , "skyblue" , "pink"];
+        var rkn = ["blue", "green" , "yellow" , "red" , "gray" , "skyblue" , "pink", "blue", "green" , "yellow" , "red" , "gray" , "skyblue" , "pink"];
 
         var randomNumber = Math.random();
 
        var ma = (Math.round(randomNumber * 6));
-       var me = (Math.round(randomNumber * 6));
+       var me = (Math.round(randomNumber * 12));
 
 
        document.write(`<h1 style="text-align: center; color:${rkn[me]}; ">${dkn[ma]}</h1>`);
